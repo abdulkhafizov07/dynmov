@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <!-- Basic App Info -->
+    <key>CFBundleName</key>
+    <string>dynmov</string>
+    <key>CFBundleDisplayName</key>
+    <string>dynmov</string>
+    <key>CFBundleIdentifier</key>
+    <string>com.yourname.dynmov</string>
+    <key>CFBundleVersion</key>
+    <string>1.0</string>
+    <key>CFBundleShortVersionString</key>
+    <string>1.0</string>
+
+    <!-- App Type -->
+    <key>LSApplicationCategoryType</key>
+    <string>public.app-category.video</string>
+    <key>LSMinimumSystemVersion</key>
+    <string>13.0</string>
+
+    <!-- App UI Settings -->
+    <key>NSHighResolutionCapable</key>
+    <true/>
+    <key>NSPrincipalClass</key>
+    <string>NSApplication</string>
+
+    <!-- Allow full-screen / multi-screen -->
+    <key>NSMainStoryboardFile</key>
+    <string>Main</string>
+    <key>NSApplicationSceneManifest</key>
+    <dict>
+        <key>UIApplicationSupportsMultipleScenes</key>
+        <true/>
+    </dict>
+
+    <!-- Permissions (if using AVFoundation) -->
+    <key>NSCameraUsageDescription</key>
+    <string>This app may access the camera if needed.</string>
+    <key>NSMicrophoneUsageDescription</key>
+    <string>This app may access the microphone if needed.</string>
+    
+    <!-- App Icon -->
+    <key>CFBundleIconFile</key>
+    <string>AppIcon</string>
+
+    <!-- Disable App Nap (optional for continuous video playback) -->
+    <key>NSAppSleepDisabled</key>
+    <true/>
+
+</dict>
+</plist>
+
